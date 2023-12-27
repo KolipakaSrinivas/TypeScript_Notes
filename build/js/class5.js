@@ -43,4 +43,11 @@ class webDev extends Coder {
 const srinivas = new webDev("mac", "srinivas", 23, "js", true);
 srinivas.getAge();
 srinivas.callName();
-// srinivas.age //error because it accesed in class coder
+class Person {
+    constructor(name, age, status) {
+        (this.name = name), (this.age = age), (this.status = status);
+    }
+    pay(action) {
+        return this.name;
+    }
+}

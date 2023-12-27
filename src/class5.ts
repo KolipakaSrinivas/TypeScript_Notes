@@ -56,3 +56,24 @@ const srinivas = new webDev("mac", "srinivas", 23, "js", true);
 srinivas.getAge();
 srinivas.callName();
 // srinivas.age //error because it accesed in class coder
+
+interface Human {
+  name: string;
+  age: number;
+  status: boolean;
+  pay(action: string): string;
+}
+
+class Person implements Human {
+  name: string;
+  age: number;
+  status: boolean;
+
+  constructor(name: string, age: number, status: boolean) {
+    (this.name = name), (this.age = age), (this.status = status);
+  }
+
+  pay(action: string) {
+    return this.name;
+  }
+}

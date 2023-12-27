@@ -74,7 +74,6 @@ let obj4: setType2 = {
 //   E
 // }
 
-
 // enum Grade  {
 //   A,
 //   B,
@@ -82,7 +81,7 @@ let obj4: setType2 = {
 //   D,
 //   E
 // }
-enum Grade  {
+enum Grade {
   A = 1,
   B,
   c,
@@ -91,4 +90,3 @@ enum Grade  {
 }
 
 console.log(Grade.B);
-

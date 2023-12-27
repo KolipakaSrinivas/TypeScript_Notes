@@ -71,3 +71,9 @@
 
 14. unknow Type never use but end less if requred
     # (10 unknow) as string
+
+15.  Generics helps in functon takes the argments wich type we take 
+    # const isObj = <T>(arg: T): boolean => {}
+    # const echo = <T>(arg: T): T => {}
+
+16. 
